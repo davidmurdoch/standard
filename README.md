@@ -33,13 +33,10 @@ npm install standard
 
 ## Rules
 
-- **2 spaces** – for indentation
-- **Single quotes for strings** – except to avoid escaping
+- **1 tab** – for indentation
+- **Double quotes for strings** – except to avoid escaping
 - **No unused variables** – this one catches *tons* of bugs!
-- **No semicolons** – [It's][1] [fine.][2] [Really!][3]
-- **Never start a line with `(`, `[`, or `` ` ``**
-  - This is the **only** gotcha with omitting semicolons – *automatically checked for you!*
-  - [More details][4]
+- **Use semicolons** – Don't be stupid.
 - **Space after keywords** `if (condition) { ... }`
 - **Space after function name** `function name (arg) { ... }`
 - Always use `===` instead of `==` – but `obj == null` is allowed to check `null || undefined`.
